@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>www.jxmx(l).nic.in</title>
+</head>
+
+<body>  
+
+<div class="checker" style=" display: ;">
+   <div class="r1">Registration No:<input type="number" id="rno" value=""></div>
+   <div class="r2">Date Of Birth(dd/mm/yyyy): <input type="text" id="dob" value=""></div>
+   <div><button onclick="process()">Get Marks</button><button onclick="cleaar()">Clear</button></div>
+</div>
+    <button style=" position: fixed; width:230px; height:50px; border:2px solid #212121; opacity: 0;border-radius:7px; font-weight:600; font-size:16px; font-family:monospace; bottom:100px; backdrop-filter: blur(3px); z-index: 8; background-color:#FFFFFFD1;" id="sElement" onclick="startElement(document.querySelector('#sElement'))" ondblclick="origin()">
+      MAKE YOURS 🌌
+   </button>
+      <div class="ion">
+      <label for="language">TAMIL</label>
+      <input type="number" id="language" placeholder="/90 + 10">
+      <label for="english">ENGLISH</label>
+      <input type="number" id="english" placeholder="/90 + 10">
+      <label for="physics">PHYSICS</label>
+      <input type="number" id="physics" placeholder="/70 + 20 + 10">
+       <label for="chemistry">CHEMISTRY</label>
+      <input type="number" id="chemistry" placeholder="/70 + 20 + 10">
+            <label for="cs">COMPUTER SCIENCE</label>
+            <input type="number" id="cs" placeholder="/70 + 20 + 10">
+            <label for="maths">MATHEMATICS</label>
+            <input type="text" id="maths" class="" placeholder="/90 + 10"  /> 
+                  <label for="tot">Total</label>
+                  <input style="color:lightgrey;" type="number" style=" position: relative;  bottom:50px; color:orange;" id="tot" disabled placeholder="...">
+                  <button onclick="generate()" style="width:230px; height:30px; border: none;border-radius:0px; font-weight:600; font-size:16px; font-family:monospace; position: absolute; top:590px; backdrop-filter: blur(5px); background-color:rgb(24, 24, 24);">NEXT ☑️</button>
+   </div>
+   <div class="ion2">
+      <label for="nme">NAME</label>
+      <input type="text" id="nme" placeholder="NAME_I">
+      <label for="rln">ROLL NO</label>
+      <input type="number" name="" id="rln" value="" / placeholder="7 - 8 digit">
+      <label for="res">RESULT</label>
+      <input type="text" id="res" placeholder="P / """>
+      <label for="date">EVENT</label>
+      <select name="" id="date" class="year">
+         <option value="2020">2020</option>
+         <option value="2021">2021</option>
+         <option value="2022">2022</option>
+         <option value="2023">2023</option>
+         <option value="2024" selected>2024</option>
+         <option value="2025">2025</option>
+         <option value="2026">2026</option>
+      </select>
+      <label for="month">MONTH</label>
+       <select name="" id="month">
+          <option value="January">JANUARY</option>
+          <option value="February">FEBRUARY</option>
+          <option value="March" selected>MARCH</option>
+          <option value="April">APRIL</option>
+          <option value="May">MAY</option>
+          <option value="June">JUNE</option>
+          <option value="July">JULY</option>
+          <option value="Augest">AUGEST</option>
+          <option value="September">SEPTEMBER</option>
+          <option value="October">OCTOBER</option>
+          <option value="November">NOVEMBER</option>
+          <option value="December">DECEMBER</option>
+       </select>
+       <label for="std">
+          STANDARD
+       </label>
+       <select name="" id="std">
+          <option value="+1">+1</option>
+          <option value="+2" selected>+2</option>
+       </select>
+      <button onclick="make()" style="width:230px; height:30px; border:none; border-radius:0px; font-weight:600; font-size:16px; font-family:monospace; bottom:150px; backdrop-filter: blur(5px); background-color:#181818;">GENERATE ✅️</button>
+   </div>
+   <div class="title">ㅤㅤㅤGovernment Of Tamil Nadu<br>
+   Directorate Of Government Examinations</div>
+   <div class="banner" style=" background-color:#992298;color:white; font-family:; font-size:15px; line-height: 18px;font-weight:bold; position: absolute;">ㅤㅤㅤHSE(+1) Examination <br>ㅤㅤㅤResults March 2024</div>
+      <div class="container">
+         <div class="name">YOUR NAME I ㅤ(  1991561 )</div>
+         <div class="subsets"><div class="sub">Subject</div></div><div class="int" style=" background-color:; position: absolute;">Int</div><div class="the">The</div><div class="prac">Pra</div><div class="total">Total</div><div class="pass">Pass</div>
+         <div class="lang"><div class="subt">TAMIL</div></div><div class="tr1">010</div><div class="try1"></div><div class="pr1"></div><div class="to1"></div><div class="p1">P</div>
+         <div class="eng"><div class="sube">ENGLISH</div></div><div class="tr2">010</div><div class="try2"></div><div class="pr2"></div><div class="to2"></div><div class="p2">P</div>
+         <div class="phy"><div class="subp">PHYSICS</div></div><div class="tr3">010</div><div class="try3"></div><div class="pr3">020</div><div class="to3"></div><div class="p3">P</div>
+         <div class="chem"><div class="subc">CHEMISTRY</div></div><div class="tr4">010</div><div class="try4"></div><div class="pr4">020</div><div class="to4"></div><div class="p4">P</div>
+         <div class="comp"><div class="subcc" style="height:60px;">COMPUTER<p>SCIENCE</p></div></div><div class="tr5">010</div><div class="try5"></div><div class="pr5">020</div><div class="to5"></div><div class="p5">P</div>
+         <div class="math"><div class="subm">MATHEMATICS</div></div><div class="tr6">010</div><div class="try6"></div><div class="pr6"></div><div class="to6"></div><div class="p6">P</div>
+         <div class="tot"><div class="subtot">TOTAL</div></div><div class="tr7"></div><div class="try7"></div><div class="pr7"></div><div class="to7">0120</div><div class="p7">PASS</div>
+         <div class="box">
+           <p>Give (DOB)</p>
+           <input type="date" required>
+         </div>
+      </div>
+      <p id="gr"><span style="color:#3b3b3b; font-size:11px; font-weight:700;">Disclaimer: </span>Neither NIC nor the Directorate is<br>responsible for any inadvertent error that may<br>have crept in the results being published on<br> Net. the results was published on Net are<br>for immediate information to the examinees</p>
+   <p id="hasg" style=" position: absolute;">For result related queries Contact DGE: directordge<br>ㅤㅤㅤㅤㅤㅤㅤ[dot] tn [at] nic [dot] in<br>For any Technical Feedback send mail to tnwebadmin<br>ㅤㅤㅤㅤㅤㅤㅤㅤ[at] nic [dot] in</p>
+         <a href="/Acc(*)/Acsㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ.html" style=" position: absolute;">Site Designed and hosted by National informatics centre</a>
+   <div class="details" style="position: absolute;">
+   </div>
+   <img src="/icon07 (1).gif" width="110px" height="32px" alt="" style="object-fit:fill; position: absolute; top:81px; left:0px; z-index:4;">
+   <img src="/20231020_180318.jpg" width="" height="40px" alt="" style=" position: absolute; left:145px;top:445px;">
+   
+</body>
+
+</html>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Jacquard+24+Charted&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Yuji+Syuku&display=swap');
+   :root{
+   
+   }
+   *{
+      margin: 0;
+      padding: 0;
+      font-family: "Old Standard TT", serif;
+      font-family: sans-serif;
+      box-sizing: border-box;
+   }
+   body{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f9f9f9;
+   }
+   .ide{
+      width: 100%;
+      height: 200px;
+      overflow-y: scroll;
+      border:8px solid grey;
+      display: grid; 
+      place-items: center; 
+   }
+   .container{
+      width: 74vw;
+      height: 246px;
+      border: 2px solid #0D0D0D;
+      position: absolute; 
+      display: grid; 
+      grid-template-rows: repeat(9,30px);
+      grid-template-columns: repeat(6,30px);
+      overflow: hidden;
+      top:160px;
+   }
+   .checker{
+      position: absolute; 
+      width: 354px;
+      height: 290px;
+      background-color: #F9F9F9;
+      z-index: 89;
+      top:150px;
+      display: none; 
+      padding: 50px 0;
+      border:1px solid #990100;
+   }
+   .r1{
+      position: relative; 
+      left:76px;
+   }
+   .checker div{
+      color:#990100;
+      font-weight: 500;
+      font-size: 13px;
+   }
+   .checker button{
+      width: 160px;
+      height: 40px;
+      background-color: #f9f9f9;
+      border-radius: 3px;
+      border:  none;
+      box-shadow: 0px .90px 3px rgba(0,0,0,.3);
+      color:#212121;
+      font-weight: 600;
+      margin:5px;
+      position: relative; 
+      top:50px;
+   }
+   .checker:nth-child(2) button:nth-child(2){
+      width:130px;
+   }
+   .checker button:active,img:active{
+         box-shadow: 0px 0px 10px #64aeeb;
+   }
+.checker div input{
+   width:100px;
+   height: 35px;
+   background-color:  #fff;
+   border:none;
+   outline: none;
+   padding: 5px;
+   margin-left: 10px;
+   border-radius: 3px;
+   box-shadow: inset 0px .90px 3px rgba(0,0,0,.3);
+}
+.checker input:hover{
+   box-shadow: 0px 0px 10px #64aeeb;
+}
+.checker{
+   display: grid; 
+   justify-content:  center; 
+}
+   .details{
+   width:100vw;
+   height:500px;
+   background-color:#E9E9E9;
+   z-index:-2;
+   top:430px;
+   text-align: center;
+   padding:25px;
+}
+.details p{
+   position: absolute;
+   top:120px;
+   font-weight:400;
+}
+a{
+   position: absolute;
+   font-weight:650;
+   color:#3487C8;
+   font-size:12px;
+   bottom:130px;
+}
+.details img{
+
+}
+#hasg{
+   font-size:12px;
+   font-weight:600;
+   top:542px;
+}
+platei{
+   color:#3b3b3b;
+   position: absolute;
+   font-size:11px;
+}
+#gr{
+   font-size:10px;
+   position: absolute;
+   bottom:-70px;
+   line-height:20px;
+}
+	#fg{
+	   width:130px;
+	   height:20px;
+	   position:absolute;
+	   top:136px;
+	   left:110.5px;
+	   border:2px solid #212121;
+	   z-index:4;
+	   color:#212121;
+	   font-family: sans-serif;
+	   font-size:12px;
+	   padding:1px;
+	   background:#fff;
+	  
+	}
+   .title{
+   position: absolute;
+   font-family: sans-serif;
+   color:#093C72;
+   width:inherit;
+   height:100px;
+   background-color:#e9e9e9;
+   padding:20px;
+   padding-left: 50px;
+   top:0px;
+   left:00vw;
+   z-index:-1;
+   font-size: 14px;
+   font-weight:600;
+}
+   .banner{
+   width:inherit;
+   text-align: center;
+   text-shadow:0px .8px 0px #f5f5f5;
+   position: absolute;
+   top:80px;
+   padding:px;
+   z-index:3;
+   height:40px;
+   font-size: 20px;
+}
+   /*{
+      width: 30px;
+      height: 30px;
+      border: .9px solid #0D0D0D;
+   }*/
+  .container .name{
+      width: 80vw;
+      height: 25px;
+      z-index: 19;
+      background-color:  #f9f9f9;
+      font-size: 12px;
+      font-weight: 600;
+      text-align:  center; 
+      line-height: 25px;
+      border-bottom:.9px solid #0d0d0d;
+   }
+   .container .subsets{
+      background-color: green;
+      
+   }
+   .container .subsets,.lang,.eng,.phy,.chem,.comp,.math,.tot{
+      width: 80vw;
+      height: 25px;
+      background-color: green;
+      border-bottom:.9px solid #0d0d0d;
+      position: relative; 
+      right:30px;
+      top:24px;
+      z-index:-1;
+   }
+   .lang{
+      background-color:yellow;
+      position: relative; 
+      top:49px;
+      right:60px;
+   }
+   .eng{
+      background-color: red;
+      position: relative; 
+      right:90px;
+      top:74px;
+   }
+   .phy{
+      background-color: #818AF5;
+      position: relative; 
+      right:120px;
+      top:99px;
+   }
+   .chem{
+      background-color: #9F0B40;
+      position: relative; 
+      right:150px;
+      top:124px;
+   }
+   .comp{
+      background-color: #ACDBFF;
+      position: relative; 
+      right:0px;
+      top:119px;
+   }
+   .math{
+      background-color: orange;
+      position: relative; 
+      right:30px;
+      top:165px;
+   }
+   .tot{
+      background-color: #2f3542;
+      right:60px;
+      top:190px;
+   }
+   .lang,.eng,.phy,.chem,.comp,.math,.tot{
+      background-color:  #fff;
+   }
+   .sub{
+      width: 100px;
+      height: 25px;
+      background-color: transparent;
+      border-right:.9px solid #0d0d0d;
+      color:#EEFBD6;
+      font-size: 13px;
+      text-shadow: 0px 1px 0px #EEFBD6;
+      font-weight: 600;
+      text-align: start; 
+      line-height: 25px;
+      padding:0px 05px;
+      position: absolute; 
+      top:0px;
+   }
+   .subt,.sube,.subp,.subc,.subcc,.subm,.subtot{
+      width: 100px;
+      height: 30px;
+      background-color: transparent;
+      color:#0d0d0d;
+      font-size: 11.5px;
+      font-weight: 700;
+      line-height: 25px;
+      padding:0px 03px;
+      border-right:.9px solid #0d0d0d;
+   }
+   .subcc{
+      height:60px;
+   }
+   .comp{
+      height: 45px;
+      z-index: 2;
+   }
+   .subcc p{
+      position: relative; 
+      bottom:10px;
+   }
+  .int{
+     width: 29px;
+     height: 25px;
+     background-color: green;
+     position: absolute; 
+     text-shadow: 0px -1px 0px #EEFBD6;
+     color:#eefbd6;
+     font-size: 13px;
+     font-weight: 500;
+     border:.9px solid #0d0d0d;
+     border-left:none;
+     top:24px;
+     line-height: 21px;
+     left:100px;
+     padding: 2px;
+  }
+  .the{
+     width: 29px;
+     height: 25px;
+     position: absolute; 
+     background-color: green;
+     color:#eefbd6;
+     font-size: 13px;
+     font-weight: 600;
+     text-shadow: 0px -1px 0px #EEFBD6;
+     border:.9px solid #0d0d0d;
+     border-left:none;
+     line-height: 25px;
+     top:24px;
+     left:129px;
+     text-align: center; 
+  }
+  .box{
+    width: 100%;
+    height: 260px;
+    background:#;
+    backdrop-filter: blur(0px);
+    position: absolute; 
+    background-size: 1000%;
+    transition: top 1s ease-out;
+    z-index: 88;
+    top:0px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  .box.cos{
+    top:260px;
+  }
+  @keyframes yuu{
+   0%{
+     top:-10px;
+   }
+   100%{
+     top:260px;
+   }
+} 
+  @keyframes hold{
+   0%{
+     background-position-x:0%;
+   }
+   100%{
+     background-position-x:1000%; 
+   }
+} 
+  .box  svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -30px;
+  left: 30px;
+  overflow: visible;
+  animation: identifier .002s linear infinite;
+}
+  @keyframes identifier{
+   0%{
+     transform: rotate(0deg);
+   }
+   100%{
+     transform: rotate(360deg);
+   }
+} 
+
+.circle {
+  fill: none;
+  stroke: url(#gradient);
+  stroke-width: 20;
+  stroke-linecap: round;
+}
+
+.blur { filter: blur(40px); }
+
+.backcircle { stroke: rgba(255, 255, 255, .2) }
+
+.progress {
+  stroke-dasharray: 1400;
+  stroke-dashoffset: 100;
+  transform-origin: center center;
+  transform: rotateZ(-90deg);
+}
+
+  .promotion a{
+    color:orange;
+  }
+  .box p{
+    color:#fff;
+    font-family: monospace;
+    position: absolute; 
+    top:70px;
+    display: none; 
+    
+  }
+  .box{
+    padding-top: 30px;
+  }
+  .box input{
+    background-color: #e5e5e5;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    top:150px;
+   outline: none;
+   display: none; 
+  }
+  .box button:active{
+    box-shadow: 0px 0px 70px #000;
+  }
+  .prac{
+     width: 29px;
+     height: 25px;
+     position: absolute;
+     background-color: green;
+     color:#eefbd6;
+     font-size: 13px;
+     font-weight: 600;
+     text-shadow: 0px -1px 0px #EEFBD6;
+     border:.9px solid #0d0d0d;
+     border-left:none;
+     line-height: 25px;
+     top:24px;
+     left:158px;
+     text-align: center; 
+  }
+  .total{
+     width: 42px;
+     height: 25px;
+     position: absolute;
+     background-color: green;
+     color:#eefbd6;
+     font-size: 13px;
+     text-shadow: 0px -1px 0px #EEFBD6;
+     font-weight: 600;
+     border:.9px solid #0d0d0d;
+     border-left:none;
+     line-height: 25px;
+     top:24px;
+     left:187px;
+     text-align: center; 
+  }
+  .pass{
+     width: 42px;
+     height: 25px;
+     position: absolute;
+     background-color: green;
+     color:#eefbd6;
+     font-size: 13px;
+     font-weight: 600;
+     text-shadow: 0px -1px 0px #EEFBD6;
+     border:.9px solid #0d0d0d;
+     border-left:none;
+     border-right:none;
+     line-height: 25px;
+     top:24px;
+     left:229px;
+     text-align: center; 
+  }
+  .tr1,.tr2,.tr3,.tr4,.tr5,.tr6{
+     width: 29px;
+     height: 25px;
+     position: absolute;
+     background-color: ;
+     color:#0d0d0d;
+     font-size: 12px;
+     font-weight: 700;
+     border:.9px solid #0d0d0d;
+     border-left:none;
+     border-top:none;
+     line-height: 25px;
+     top:49px;
+     left:100px;
+     text-align: center; 
+  }
+  .tr2{
+     width: 29px;
+     height: 25px;
+     position: absolute;
+     background-color: ;
+     color:#0d0d0d;
+     font-size: 12px;
+     font-weight: 700;
+     border:.9px solid #0d0d0d;
+     border-left:none;
+     line-height: 25px;
+     top:74px;
+     left:100px;
+     border-top:none;
+     border-bottom:none;
+  }
+  .tr3{
+     width: 29px;
+     height: 25px;
+     position: absolute;
+     background-color: ;
+     color:#0d0d0d;
+     font-size: 12px;
+     font-weight: 700;
+     border:.9px solid #0d0d0d;
+     border-left:none;
+     line-height: 25px;
+     top:99px;
+     left:100px;
+     border-top:none;
+     border-bottom:none;
+  }
+  .tr4{
+     width: 29px;
+     height: 25px;
+     position: absolute;
+     background-color: ;
+     color:#0d0d0d;
+     font-size: 12px;
+     font-weight: 700;
+     border:.9px solid #0d0d0d;
+     border-left:none;
+     line-height: 25px;
+     top:124px;
+     left:100px;
+     border-top:none;
+     border-bottom:none;
+  }
+  .tr5{
+     width: 29px;
+     height: 45px;
+     position: absolute;
+     background-color: ;
+     color:#0d0d0d;
+     font-size: 12px;
+     font-weight: 700;
+     border:.9px solid #0d0d0d;
+     border-left:none;
+     line-height: 25px;
+     top:149px;
+     left:100px;
+     z-index:5;
+     line-height: 40px;
+     border-top:none;
+     border-bottom:none;
+  }
+ .tr6{
+    width: 29px;
+     height: 25px;
+     position: absolute;
+     background-color: ;
+     color:#0d0d0d;
+     font-size: 12px;
+     font-weight: 700;
+     border:.9px solid #0d0d0d;
+     border-left:none;
+     line-height: 25px;
+     top:194px;
+     left:100px;
+     border-top:none;
+     border-bottom:none;
+ }
+ .tr7{
+    width: 29px;
+     height: 25px;
+     position: absolute;
+     background-color: ;
+     color:#eefbd6;
+     font-size: 13px;
+     font-weight: 700;
+     border:.9px solid #0d0d0d;
+     border-left:none;
+     line-height: 25px;
+     top:220px;
+     left:100px;
+     border-top:none;
+     border-bottom:none;
+ }
+ .try1,
+ .try2,
+ .try3,
+ .try4,
+ .try5,
+ .try6,
+ .try7{
+    width: 29px;
+     height: 25px;
+     position: absolute;
+     background-color: ;
+     color:#0d0d0d;
+     font-size: 12px;
+     font-weight: 700;
+     border:.9px solid #0d0d0d;
+     border-left:none;
+     border-top:none;
+     line-height: 25px;
+     top:49px;
+     left:129px;
+     text-align: center; 
+ }
+ .try1{
+    left:129px;
+ }
+ .try2{
+    top:74px;
+ }
+ .try3{
+    top: 99px;
+ }
+ .try4{
+    top: 124px;
+ }
+ .try5{
+    top:149px;
+    z-index: 3;
+    height: 45px;
+    line-height: 40px;
+ }
+ .try6{
+    top:194px;
+    z-index: 8;
+    border-bottom:none;
+}
+.try7{
+   top:220px;
+   border-bottom: none;
+}
+.pr1,
+.pr2,
+.pr3,
+.pr4,
+.pr5,
+.pr6,
+.pr7{
+   width: 29px;
+     height: 25px;
+     position: absolute;
+     background-color: ;
+     color:#0d0d0d;
+     font-size: 12px;
+     font-weight: 700;
+     border:.9px solid #0d0d0d;
+     border-left:none;
+     border-top:none;
+     line-height: 25px;
+     top:169px;
+     left:158px;
+     text-align: center; 
+}
+.pr3{
+   top:99px;
+}
+.pr4{
+   position: absolute; 
+   top:124px;
+   z-index: 10;
+   background-color: ;
+}
+.pr5{
+   top:149px;
+   left:158px;
+   z-index: 4;
+   height: 45px;
+   line-height: 40px;
+}
+.pr6{
+   left:158px;
+   top:194px;
+      background-color: ;
+  z-index: 10;
+   border-left: .9px #0d0d0d;
+   border-bottom:none;
+}
+.pr7{
+   left;176px;
+   top:220px;
+}
+.pr1{
+   left:158px;
+   background-color: ;
+   top:49px;
+}
+.pr2{
+   left:158px;
+   background-color: ;
+   top:74px;
+}
+.to1,
+.to2,
+.to3,
+.to4,
+.to5,
+.to6,
+.to7{
+   width: 42px;
+     height: 25px;
+     position: absolute;
+     background-color: ;
+     color:#0d0d0d;
+     font-size: 12px;
+     font-weight: 700;
+     border:.9px solid #0d0d0d;
+     border-left:none;
+     border-top:none;
+     line-height: 25px;
+     top:220px;
+     
+     left:187px;
+     text-align: end; 
+     padding: 0px 4px;
+}
+.to7{
+   top:220px;
+}
+.to1{
+   top:49px;
+}
+.to2{
+   top:74px;
+}
+.to3{
+   top:99px;
+}
+.to4{
+   top:124px;
+}
+.to5{
+   height: 45px;
+   z-index: 4;
+   top:149px;
+   line-height: 40px;
+}
+.to6{
+   top:194px;
+   z-index: 4;
+   border-bottom: none;
+   line-height: 26px;
+}
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7{
+   width: 42px;
+     height: 25px;
+     position: absolute;
+     background-color: ;
+     color:#0d0d0d;
+     font-size: 12px;
+     font-weight: 700;
+     border:.9px solid #0d0d0d;
+     border-right:none;
+     border-left:none;
+     border-top:none;
+     line-height: 25px;
+     top:59px;
+     left:229px;
+     text-align: end; 
+     padding-right:5px;
+}
+.p7{
+   top:220px;
+   text-align:  center; 
+}
+.p1{
+   top:49px;
+}
+.p2{
+   top:74px;
+}
+.p3{
+   top:99px;
+   z-index: 13;
+}
+.p4{
+   top:124px;
+   z-index: 12;
+}
+.p5{
+   height: 45px;
+   z-index: 4;
+   top:149px;
+   line-height: 40px;
+}
+.p6{
+   top:195px;
+}
+.ion2,.ion{
+   width:100%;
+   height:100%;
+   background-color:#000;
+   position: fixed;
+   z-index: 999;
+   display: none;
+   place-items: center;
+   grid-template-rows:repeat(16,40px);
+
+}
+.ion2,.ion label{
+   display:block;
+   color:grey;
+}
+.ion input,select{
+   border: none;
+   height:35px;
+   border-radius:0px;
+   outline: none;
+   background-color:#181818;
+   color:red;
+   box-shadow: inset 0px 0px 4px #191919D9;
+   padding: 0px;
+   text-align: center;
+   font-size: 17px;
+   font-weight:600;
+   font-family: monospace;
+}
+.ion input::placeholder{
+     color:#e5e5e5;
+}
+.ion2,.ion button{
+   width:230px;
+   height: 35px;
+   position: absolute;
+   top:900px;
+   color:#e5e5e5;
+}
+.ion2{
+   z-index: 999;
+   display: none;
+   position: fixed;
+   width:100%;
+   height:100%;
+   top:0;
+}
+.ion2 input,select{
+   border: none;
+   height:35px;
+   border-radius:0px;
+   outline: none;
+   background-color:#181818;
+   color:red;
+   box-shadow: inset 0px 0px 4px #191919D9;
+   padding: 0px;
+   text-align: center;
+   font-size: 17px;
+   font-weight:600;
+   font-family: monospace;
+}
+select{
+  color:#64aeeb;
+}
+.ion2 button{
+   width:230px;
+   height: 35px;
+   position: relative;
+   background-color: #181818;
+   top:40px;
+}
+.ion2 input{
+  color: mediumpurple;
+}
+</style> 
+<script>
+   var icvc = document.querySelector('.container'); 
+   var iName = document.querySelector('.ion2 #nme');
+   var iRoll = document.querySelector('.ion2 #rln');
+   var iResult = document.querySelector('.ion2 #res');
+   var eTotal = document.querySelector('#tot');
+   //em
+   var iTamil = document.querySelector('.try1');
+   var iEnglish = document.querySelector('.try2');
+   var iPhysics = document.querySelector('.try3');
+   var iChemistry = document.querySelector('.try4');
+   var iCs = document.querySelector('.try5');
+   var iMaths = document.querySelector('.try6'); 
+   var eName = document.querySelector('.name');
+   var eResult = document.querySelector('.eresult');
+   var lTot = document.querySelector('.to1'); 
+   var eTot = document.querySelector('.to2'); 
+   var pTot = document.querySelector('.to3'); 
+   var cTot = document.querySelector('.to4'); 
+   var csTot = document.querySelector('.to5'); 
+   var mTot = document.querySelector('.to6'); 
+   var iTotal = document.querySelector('.to7');
+   var iMonth = document.querySelector('#month'); 
+   var iYear = document.querySelector('.year');
+   var iStd = document.querySelector('#std'); 
+   //rem 
+   var std = document.querySelector('.ion');
+   var etd = document.querySelector('.ion2');
+   var renderedOutput = "";
+   var getBannerDetails = document.querySelector('.banner'); 
+   var totalDis = document.querySelector('#tot');
+   var application = {
+      tamil : document.querySelector('#language'),
+      english : document.querySelector('#english'),
+      phy :  document.querySelector('#physics'),
+      chem : document.querySelector('#chemistry'),
+      cs : document.querySelector('#cs'),
+      math : document.querySelector('#maths')
+   }
+   function startRender(){
+    var tam = Number(application.tamil.value);
+    var eng = Number(application.english.value);
+    var phy = Number(application.phy.value);
+    var chem = Number(application.chem.value);
+    var cs = Number(application.cs.value);
+    var math = Number(application.math.value)
+    totalDis.value = tam + eng + phy + chem + cs + math + 120;
+    }
+    application.tamil.addEventListener('keyup',startRender);
+    application.english.addEventListener('keyup',startRender);
+    application.phy.addEventListener('keyup',startRender);
+    application.chem.addEventListener('keyup',startRender);
+    application.cs.addEventListener('keyup',startRender);
+    application.math.addEventListener('keyup',startRender);
+function generate(){
+   std.style.display = 'none';
+   etd.style.display = 'grid';
+}
+function make(){
+   var forTam = Number(application.tamil.value) + 10;
+   var forEng = Number(application.english.value) + 10;
+   var forPhy = Number(application.phy.value) + 30;
+   var forChem = Number(application.chem.value) + 30;
+   var forCs = Number(application.cs.value) + 30;
+   var forMath = Number(application.math.value) + 10;
+   etd.style.display = 'none';
+   //display the desired output
+   iTamil.textContent = '0'+application.tamil.value;
+   iEnglish.textContent = '0'+application.english.value;
+   iPhysics.textContent = '0'+application.phy.value;
+   iChemistry.textContent = `0${application.chem.value}`;
+   iCs.textContent = '0'+application.cs.value;
+   iMaths.textContent = '0'+application.math.value;
+   
+   eName.textContent = `${iName.value} ㅤ( ${iRoll.value} )`;
+   if(application.tamil.value === '90'){
+      lTot.textContent = forTam;
+   }else if(application.english === '90'){
+      eTot.textContent = forEng;
+   }else if(application.phy.value === '70'){
+      pTot.textContent = forPhy;
+   }else if(application.chem.value === '70'){
+      cTot.textContent = forChem;
+   }else if(application.cs.value === '70'){
+      csTot.textContent = forCs;
+   }else if(application.math.value === '90'){
+      mTot.textContent = forMath;
+   }else{
+      lTot.textContent = '0'+forTam;
+   eTot.textContent = '0'+forEng;
+   pTot.textContent = '0'+forPhy;
+   cTot.textContent = '0'+forChem;
+   csTot.textContent = '0'+forCs;
+   mTot.textContent = '0'+forMath;
+   setTimeout(function(){
+      //  document.querySelector('.box').classList.add('cos');
+   },700); 
+   }
+   showInf();
+   //eResult.textContent = iResult.value;
+   iTotal.textContent = '0'+Number(eTotal.value);
+}
+function startElement(s){
+   std.style.display = 'grid';
+   s.style.display = 'none';
+}
+function origin(){
+   var ed = document.querySelector('#sElement');
+   ed.style.opacity = '0';
+}
+function showInf(){
+   getBannerDetails.textContent = `ㅤㅤㅤㅤㅤㅤㅤㅤHSE(${iStd.value})ㅤExamination ㅤ
+         ㅤㅤㅤㅤㅤ ㅤResults ${iMonth.value} ${iYear.value}`; 
+}
+var ele = document.querySelector('#rno'); 
+var dlw = document.querySelector('#dob'); 
+function process(){
+   if(ele.value === ''){
+      alert('Registration no feild can not be empty');
+   }else if(dlw.value === ''){
+      alert('DOB feild can not be empty');
+   }else if(ele.value !== '' && dlw.value !== ''){
+      var getIr = document.querySelector('.checker'); 
+      getIr.style.display = 'none';
+   }
+}
+function cleaar(){
+   ele.value = '';
+   dlw.value = '';
+}
+function thankYousomuch(){
+  
+}
+ var hetch = document.querySelector('.box input')
+ hetch.addEventListener('change',function(){
+   if(hetch.value != '' ){
+   localStorage.setItem('Hetch',`D/M/Y : ( ${hetch.value} )`); 
+   thankYousomuch();
+   }
+  })
+  var es = document.querySelectorAll('div'); 
+  for(i=0;i<es.length;i++){
+     es[i].contentEditable = '' ;
+   } 
+</script>
+
