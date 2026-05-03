@@ -1,0 +1,32 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+ </head>
+ <body>
+   <input type="date" id="toDate">
+<input type="time" id="toTime">
+<button onclick="saveTime()">Save</button>
+
+<script>
+  function saveTime() {
+    const d = document.getElementById("toDate").value;
+    const t = document.getElementById("toTime").value;
+    
+    if (!d || !t) {
+      alert("Select date & time");
+      return;
+    }
+    
+    const endTime = new Date(`${d} ${t}`).getTime();
+    
+    localStorage.setItem("countdown_end", endTime);
+    
+    alert("Saved ✅");
+  }
+</script>
+ </body>
+ </html>
