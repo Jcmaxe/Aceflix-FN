@@ -103,7 +103,7 @@
   </lorescreen>
     <div class="underM" style=" display: none;">
       <j2>
-        Maintainence
+        Election Result 📊
       </j2>
               <p class="nem" style=" color: grey; left:80px;">
           <ule>NOTE</ule>:- Please Patient while the maintenance mode <br> That means developers are working, on the site now <br>So it will don't take much time to fix the errors and updating, <br> debbuging (bug-fix), you can use us soon! <intr>please be intercasted</intr><br>
@@ -111,7 +111,7 @@
           • Don't be panic if you found your data (or) account lost,  <br>• it will be return to you for  <ret onclick="ats()">sure</ret>, keep using us ☺
         </p>
       <div class="viu">
-        <video muted autoplay loop width="250" src="" id="cvg"></video>
+        <video muted autoplay loop width="250" src="" id="cvg" style=" width:251px; height:151px; object-fit: cover;"></video>
 
       </div>
       <df>Opens At</df>
@@ -119,17 +119,17 @@
         <dys>
           567 Days
         </dys> <br>
-        <hf><rolw class="ee">00</rolw> : <rolw class="ee">12</rolw> : <rolw class="ee">21</rolw> : <rolw>(DU)</rolw> <rolw>🌃</rolw></hf>
+        <hf><rolw class="ee">00</rolw> : <rolw class="ee">12</rolw> : <rolw class="ee">21</rolw> : <rolw>(DU)</rolw> <rolw>🏙</rolw></hf>
       </timu>
-      <inc style=" width:auto; height: 75px; border:1px solid #212121; border-radius: 3px; padding: 5px; color: grey; position: absolute; bottom: 80px;">
-        <p style=" font-size: 6px;">🏷ㅤIn case</p>
-        <p style=" font-size: 1px;">Youre an developer, you can also work in it as a member</p>
-        <p style=" font-size: 1px;">Enter your 6-digit INCID Code (or) CNE Code to start work</p>
+      <inc style=" width:auto; height: 75px; border:1px solid #212121; border-radius: 3px; padding: 5px; color: grey; position: absolute; bottom: 80px; left: 15px;">
+        <p style=" font-size: 10px;">🏷ㅤIn case</p>
+        <p style=" font-size: 10px;">Youre an developer, you can also work in it as a member</p>
+        <p style=" font-size: 10px;">Enter your 6-digit INCID Code (or) CNE Code to start work</p>
         <input style=" margin-top: 3px; padding-left: 2px; background-color:#181818;" type="text" placeholder="Enter(INCID)"><input style=" margin-top: 3px; padding-left: 2px; background-color: #eccc6820" type="text" placeholder="Enter(CNE)"><input disabled style=" width: px; margin-top: px; padding-left: 2px; background-color: #2f2f2f; color: #181818; text-align:center; " type="text" placeholder="➡" onclick="alert('hi')">
 
       </inc>
       <div class="kji">
-        <button id="soree" onclick="openAt()">Details</button>
+        <button id="soree" onclick="openAt()" style=" background-color: #3d3c42;">Stats</button>
       </div>
     </div>
   <elingite style=" position: fixed; width:100vw; height:100vh; top:50px; z-index:77871; pointer-events: none; ">
@@ -5758,7 +5758,7 @@ function update() {
   rolw[2].innerHTML = String(seconds).padStart(2,'0');
 
   const endHour = new Date(end).getHours();
-  rolw[3].innerHTML = getEmoji(endHour);
+  //rolw[3].innerHTML = getEmoji(endHour);
 }
 
 // ⏱ run every second
