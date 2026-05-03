@@ -5661,7 +5661,7 @@ function uploadFiles(event) {
   am.href = '/Acs::player.html';
   am.click();
  console.warn('Rodriguez',x);
-}*/  // imdex[2] is allways 00
+}  // imdex[2] is allways 00
 //  Hours, Minutes, Seconds, Date, Month, Year
     //   H   M    S  D   M    Y
   var desxf = ['/noscript/A_cute_girl_with_pan...402448_240_1741563455502_1.mp4','/noscript/My_new_squirt_compil...378494_720_1741563541041.mp4','/noscript/Mmm_tasting_my_wet_p...398674_240_1741563456661.mp4','/noscript/Multiple_squirts._I_...767562_240_1741604116408_1.mp4','/noscript/BEST_FEMALE_SQUIRTIN...531058_720_1741563519109.mp4'];
@@ -5713,7 +5713,57 @@ let nimutes = Math.floor((date2 - date1) / (1000 * 60 * 60));
        document.querySelector('.underM').style.display = 'inline';
        return Boolean + Infinity
    }
- }
+ }*/
+	  const box = document.querySelector('.underM');
+const dys = document.querySelector('dys');
+const rolw = document.querySelectorAll('rolw');
+
+const end = Number(localStorage.getItem("countdown_end"));
+
+function getEmoji(hour){
+  if (hour >= 5 && hour < 8) return "🌅";
+  if (hour >= 8 && hour < 17) return "🏙";
+  if (hour >= 17 && hour < 19) return "🌇";
+  //return "🌃";
+}
+
+function update() {
+
+  if (!end) {
+    box.style.display = "none";
+    return;
+  }
+
+  const now = Date.now();
+  const distance = end - now;
+
+  // ⛔ finished → vanish
+  if (distance <= 0) {
+    box.style.display = "none";
+    return;
+  }
+
+  // ✅ show
+  box.style.display = "flex";
+
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  dys.innerHTML = days + " Days";
+
+  rolw[0].innerHTML = String(hours).padStart(2,'0');
+  rolw[1].innerHTML = String(minutes).padStart(2,'0');
+  rolw[2].innerHTML = String(seconds).padStart(2,'0');
+
+  const endHour = new Date(end).getHours();
+  rolw[3].innerHTML = getEmoji(endHour);
+}
+
+// ⏱ run every second
+setInterval(update, 1000);
+update();
  var pron = document.querySelector('#pne') 
  var pronn = document.querySelector('#pnne') 
  var proim = document.querySelector('#primg')
